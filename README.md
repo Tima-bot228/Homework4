@@ -10,14 +10,14 @@
    ```sh
    javac *.java
    
-Запустите демонстрацию Singleton (ConfigurationManager):
-sh
+**Запустите демонстрацию Singleton**(ConfigurationManager):
+```sh
 java ConfigManagerDemo
-
+```
 Запустите демонстрацию Adapter (ChatServiceAdapter):
-sh
-java ChatAdapterDemo
-
+```sh
+javaChatAdapterDemo
+```
 Пример вывода
 Singleton (ConfigurationManager)
 rust
@@ -30,9 +30,9 @@ defaultLanguage -> en
 gameDifficulty -> medium
 
 Adapter (ChatServiceAdapter)
-yaml
+```yaml
 Legacy Chat: Hello world!
-
+```
 Дополнительная информация
 Singleton гарантирует единственный экземпляр ConfigurationManager, предотвращая дублирование настроек.
 Adapter (ChatServiceAdapter) позволяет использовать LegacyChatService с новым интерфейсом ChatService без изменения его кода.
